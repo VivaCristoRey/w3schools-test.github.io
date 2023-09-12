@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joseph Nguyen - Personal Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffffff; /* White background */
+            color: #000000; /* Black text */
+            text-align: center;
+        }
+
+        header {
+            background-color: #4CAF50; /* Green background */
+            padding: 20px;
+        }
+
+        h1 {
+            color: #ffffff; /* White text */
+        }
+
+        .content {
+            padding: 20px;
+        }
+
+        .interests {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        .interest {
+            margin: 10px;
+        }
+
+        footer {
+            background-color: #4CAF50; /* Green background */
+            padding: 10px;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Joseph Nguyen's Personal Webpage</h1>
+    </header>
+    
+    <div class="content">
+        <h2>About Me</h2>
+        <p>I am Joseph Nguyen, and I have a passion for martial arts, particularly Muay Thai. I also have a deep love for reading books, and I'm fascinated by hexagons. Turtles are my favorite animals.</p>
+    </div>
+
+    <div class="interests">
+        <div class="interest">
+            <img src="turtle.png" alt="Turtle" width="100">
+            <p>Turtles</p>
+        </div>
+        <div class="interest">
+            <img src="muaythai.png" alt="Muay Thai" width="100">
+            <p>Muay Thai</p>
+        </div>
+        <div class="interest">
+            <img src="books.png" alt="Books" width="100">
+            <p>Books</p>
+        </div>
+        <div class="interest">
+            <img src="hexagon.png" alt="Hexagon" width="100">
+            <p>Hexagons</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Joseph Nguyen | Personal Webpage</p>
+    </footer>
+</body>
+</html>
